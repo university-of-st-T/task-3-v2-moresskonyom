@@ -14,4 +14,3 @@ def calculate_total(prices, *discounts, **options):
     return float(s)
 
 
-print(calculate_total([100, 200, 300], 10, tax=15, round_to=None))
